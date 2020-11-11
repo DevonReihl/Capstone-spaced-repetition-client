@@ -12,7 +12,7 @@ export default class Language extends Component {
 componentDidMount() {
     LanguageService.getLanguage()
     .then(res => {
-        this.context.setLauguage(res.language)  
+        this.context.setLanguage(res.language);
     })
     .catch( res => {
         this.setState({ error: res.error })
@@ -20,8 +20,8 @@ componentDidMount() {
 }
 
 render() {
-    const { error } = this.state
     const { language } = this.context
+    console.log(language)
 
     return (
         <div>
@@ -30,7 +30,7 @@ render() {
                     Your current language is: {language.name}
                 </h2>
             </div>
-            <p>Total correct guesses in /French/{language.name} is /0/{language.total_score}</p>
+            <p>Total correct answers: {language.total_score}</p>
         </div>
     )
 }

@@ -7,11 +7,14 @@ import App from './components/App/App'
 import './setup-icons'
 import './index.css'
 import * as serviceWorker from './serviceWorker'
+import { LanguageProvider } from './contexts/LanguageContext'
 
 ReactDOM.render(
   <BrowserRouter>
     <UserProvider>
-      <App />
+      <LanguageProvider>
+        <App />
+      </LanguageProvider>     
     </UserProvider>
   </BrowserRouter>,
   document.getElementById('root'),

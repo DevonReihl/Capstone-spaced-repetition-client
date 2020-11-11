@@ -10,9 +10,10 @@ const LanguageService = {
             }
         })
         .then(res => 
-            (!res.ok)
+            {return (!res.ok)
             ? res.json().then(e => Promise.reject(e))
-            : res.json(),
+            : res.json()}
+            
             )
     }
 }

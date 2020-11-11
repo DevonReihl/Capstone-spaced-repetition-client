@@ -22,9 +22,9 @@ export default class Words extends Component {
     
         return words.map( word => 
             <li key={word.id}>
-                <h4> Your word is: {word.original}</h4>
-                <p>Correct answer count: {word.correct_count}</p>
-                <p>Incorrect answer count: {word.incorrect_count}</p>
+                <h4>{word.original}</h4>
+                <p>correct answer count: {word.correct_count}</p>
+                <p>incorrect answer count: {word.incorrect_count}</p>
             </li>)
     }
 }
