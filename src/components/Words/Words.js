@@ -21,7 +21,7 @@ export default class Words extends Component {
         const { words = [] }= this.context
     
         return words.map( word => 
-            <li key={word.id}>
+            <li  className='words-card' key={word.id}>
                 <h4>{word.original}</h4>
                 <p>correct answer count: {word.correct_count}</p>
                 <p>incorrect answer count: {word.incorrect_count}</p>

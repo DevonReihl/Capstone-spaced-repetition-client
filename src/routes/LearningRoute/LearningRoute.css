@@ -1,0 +1,7 @@
+.word{
+    background-color: cornflowerblue;
+    padding: 5px;
+    border: 2px solid cornflowerblue;
+    border-radius: 8px;
+    margin: 50px;
+}

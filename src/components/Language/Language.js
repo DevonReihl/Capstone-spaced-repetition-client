@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import LanguageService from '../../services/language-service'
 import LanguageContext from '../../contexts/LanguageContext'
+import './Language.css'
 
 export default class Language extends Component {
     static contextType = LanguageContext
@@ -21,11 +22,10 @@ componentDidMount() {
 
 render() {
     const { language } = this.context
-    console.log(language)
 
     return (
         <div>
-            <div>
+            <div className='language'>
                 <h2>
                     Your current language is: {language.name}
                 </h2>

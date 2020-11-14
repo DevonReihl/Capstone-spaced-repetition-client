@@ -1,0 +1,32 @@
+.words-card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+    margin: 12px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.words-table {
+    list-style-type:none;
+    max-width: 400px;
+    margin: 10px;
+    
+    
+    
+}
+
+
+@media screen and (min-width: 768px){
+
+    .words-card{
+        font-size: 28px;
+    }
+
+    .words-table{    
+        max-width: 550px;  
+    }
+  }

@@ -5,6 +5,7 @@ const LanguageContext = React.createContext({
     words: [],
     setLanguage: () => {},
     setWords: () => {},
+    setWord: () => {},
 })
 
 export default LanguageContext
@@ -23,12 +24,17 @@ export class LanguageProvider extends Component {
         this.setState({ words })
     }
 
+    setWord = word => {
+        this.setState({ word })
+    }
+
     render() {
         const value = { 
             language: this.state.language,
             words: this.state.words,
             setLanguage: this.setLanguage,
             setWords: this.setWords,
+            setWord: this.setWord,
         }
 
         return (

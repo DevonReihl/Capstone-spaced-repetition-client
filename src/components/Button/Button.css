@@ -2,10 +2,10 @@ button {
     background-color: #4CAF50;
     color: white;
     padding: 16px 20px;
-    margin: 8px 0;
+    margin: 15px 122px;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 50%;
     opacity: .8;
 }
 

@@ -1,0 +1,9 @@
+nav {
+    float: right;
+    margin-right: 45px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 42pt;
+}
