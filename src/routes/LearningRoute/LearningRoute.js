@@ -67,7 +67,7 @@ static contextType = LanguageContext
 
   handleNext = e => {
     e.preventDefault()
-    this.setState({guessAnswer: false})
+    this.setState({guessAnswer: false, currentWord: this.state.nextWord})
     
   }
 
