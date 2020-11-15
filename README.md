@@ -2,8 +2,10 @@
 
 ## Aisance App
 link to live site
-link to client repo
-link to api repo
+
+https://github.com/DevonReihl/Capstone-spaced-repetition-client
+
+https://github.com/DevonReihl/Capstone-Spaced-repetition-API
 
 ### Demo login
 username: admin
