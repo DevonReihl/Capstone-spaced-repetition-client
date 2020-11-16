@@ -1,7 +1,7 @@
 # Spaced Repetition Capstone
 
 ## Aisance App
-link to live site
+https://capstone-spaced-repetition-client.vercel.app/register
 
 https://github.com/DevonReihl/Capstone-spaced-repetition-client
 
