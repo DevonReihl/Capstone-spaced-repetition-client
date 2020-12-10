@@ -17,11 +17,11 @@ class DashboardRoute extends Component {
         <Language />
         <h3>Words to practice</h3>
         <div>
+          <Link to='learn'><Button>Start practicing</Button></Link>
           <ul className='words-table'>
             <Words />
           </ul>
         </div>
-        <Link to='learn'><Button>Start practicing</Button></Link>
       </section>
     );
   }

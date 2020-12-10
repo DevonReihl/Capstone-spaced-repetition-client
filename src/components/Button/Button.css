@@ -1,14 +1,13 @@
 button {
-    background-color: #4CAF50;
+    background-color: #6967c9;
     color: white;
-    padding: 16px 20px;
-    margin: 15px 122px;
-    border: none;
+    padding: 20px;
     cursor: pointer;
-    width: 50%;
-    opacity: .8;
+    font-weight: bold;
+    border-radius: 8px;
+    
 }
 
 button:hover {
-    opacity: 1;
+    background-color:  #4b4a9e;
 }

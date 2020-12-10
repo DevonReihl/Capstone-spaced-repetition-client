@@ -1,7 +1,17 @@
 .word{
-    background-color: cornflowerblue;
+    background-color: #83acf5;
     padding: 5px;
     border: 2px solid cornflowerblue;
     border-radius: 8px;
     margin: 50px;
+}
+
+#learn-guess-input {
+    width: 200px;
+    margin: 20px;
+}
+@media only screen and (min-width: 400px) {
+    #learn-guess-input {
+        width: 300px;
+    }
 }
