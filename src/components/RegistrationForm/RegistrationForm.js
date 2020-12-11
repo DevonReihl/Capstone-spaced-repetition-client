@@ -48,7 +48,7 @@ class RegistrationForm extends Component {
         </div>
         <div>
           <Label htmlFor='registration-name-input'>
-            Enter your name<Required />
+            Enter a given name<Required />
           </Label>
           <Input
             ref={this.firstInput}

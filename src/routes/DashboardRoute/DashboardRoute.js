@@ -16,9 +16,9 @@ class DashboardRoute extends Component {
         <h2>Welcome back {this.context.user.name} </h2>
         <Language />
         <h3>Words to practice</h3>
-        <div>
+        <div className='words-table'>
           <Link to='learn'><Button>Start practicing</Button></Link>
-          <ul className='words-table'>
+          <ul >
             <Words />
           </ul>
         </div>

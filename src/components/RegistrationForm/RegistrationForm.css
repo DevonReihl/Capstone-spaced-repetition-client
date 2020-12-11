@@ -1,4 +1,4 @@
-.RegForm > div > label {
+/* .RegForm > div > label {
     font-weight: 600;
     font-size: 18px;
     color: #1b1b1b;
@@ -7,11 +7,11 @@
   .RegForm {
     padding: 10px;
     width: 100%;
-    margin: auto;
+    margin: 10px;
   }
   
   .button-wrapper > a {
-    /* color: rgb(46, 140, 216); */
+    
     font-weight: bold;
   }
   
@@ -19,4 +19,4 @@
     .RegForm {
       width: 400px;
     }
-  }
+  } */
